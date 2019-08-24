@@ -21,6 +21,8 @@ def diagonalDifference(arr):
         sum1 += int(arr[i][i])
         sum2 += int(arr[i][n-i-1])
     return abs(sum1 - sum2)
+
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
